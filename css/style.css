@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@1,200&family=Roboto:wght@300&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: wheat;
 }
     nav ul{
         list-style: none;
@@ -30,6 +37,8 @@ input{
     border: 1px solid #2455f4;
     color: white;
     width: 86px;
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 #more{
     margin: 0 0 0 40px;
@@ -37,6 +46,8 @@ input{
     border: 1px solid #2455f4;
     color: white;
     width: 86px;
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Roboto', sans-serif; 
 }
 .cart{
     margin: 0 0 0 84px;
@@ -65,10 +76,11 @@ input{
 .slider{
     height: 250px;
     overflow: hidden;
-    margin: 0 23px;
+    margin: 10px 23px;
 }
 .box1{
-    margin: 0 23px;
+    background-color: white;
+    margin: 10px 23px;
 }
 .top{
     height: 60px;
@@ -76,11 +88,17 @@ input{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+
 }
 .view{
     background-color: #2455f4;
     color: white;
     padding: 10px 15px;
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+
 }
 .middle{
     display: flex;
@@ -92,7 +110,11 @@ input{
 .content{
     height: 175px;
     width: 180px;
-    background-color:blueviolet;
+    overflow: hidden;
+}
+.content img{
+    height: 100%;
+    width: 100%;
 }
 .bottom{
     display:flex ;
