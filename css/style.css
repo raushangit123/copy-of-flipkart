@@ -67,6 +67,48 @@ input{
     overflow: hidden;
     margin: 0 23px;
 }
+.box1{
+    margin: 0 23px;
+}
+.top{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.view{
+    background-color: #2455f4;
+    color: white;
+    padding: 10px 15px;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 190px;
+}
+.content{
+    height: 175px;
+    width: 180px;
+    background-color:blueviolet;
+}
+.bottom{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+.contentp{
+    height: 75px;
+    width: 180px;
+    /* background-color:rgb(224, 189, 193); */
+    text-align: center;
+    line-height: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
 
 
 footer{
